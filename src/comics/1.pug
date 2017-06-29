@@ -1,0 +1,24 @@
+extends ../templates/comic
+
+block variables
+    - title = 'First'
+    - description = 'Concept character sketches for JoystickJordan'
+
+block comic
+    img(src='../images/jordan.jpg' alt='Jordan')
+    img(src='../images/jordan2.jpg' alt='Jordan')
+    img(src='../images/mom.jpg' alt='Mom')
+    img(src='../images/dad.jpg' alt='Dad')
+    img(src='../images/ash.jpg' alt='Ash')
+    img(src='../images/sophie.jpg' alt='Sophie')
+
+block blogTitle
+    | Thu Jun 08 2017
+
+block blog
+    p.
+        Here is some concept art for the comic!
+    p.
+        From left to right, top to bottom: Jordan, Jordan (again), Jordan's Mom, Dad, Ash (friend), Sophie (friend)
+    p.
+        More coming soon!

@@ -1,0 +1,16 @@
+extends ../templates/default
+
+block content
+    .row
+        .col-xs-12.text-center
+            block comic
+    .row
+        .col-xs-12.text-center
+            br
+            | !{pagination}
+
+    h3
+        block blogTitle
+    .panel.panel-default
+        .panel-body
+            block blog
