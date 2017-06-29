@@ -1,0 +1,9 @@
+{
+    "output": "./public/",
+    "templates": "./src/templates/",
+    "comics": "./src/comics/",
+    "assets": "./src/assets/",
+    "pages": "./src/pages/",
+    "images": "./src/images/",
+    "static": "./src/static/"
+}

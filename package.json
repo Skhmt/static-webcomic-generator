@@ -1,0 +1,14 @@
+{
+  "name": "joystickjordan",
+  "version": "1.0.0",
+  "description": "Website for joystickjordan.com",
+  "main": "build.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pug": "^2.0.0-rc.2",
+    "rimraf": "^2.6.1"
+  }
+}
